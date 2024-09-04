@@ -86,7 +86,7 @@ def main():
     parser = argparse.ArgumentParser(description="Generate inference using a LoRA-adapted language model.")
     parser.add_argument("input_text", type=str, help="The input text for which to generate a response.")
     parser.add_argument("--lora_adapter", type=str, default=None, 
-                        help="The LoRA adapter to use. Default is 'vdpappu/lora_medicalqa'.")
+                        help="The LoRA adapter to use.")
     parser.add_argument("--instruction", type=str, default=None, 
                         help="An optional instruction to guide the generation.")
 
