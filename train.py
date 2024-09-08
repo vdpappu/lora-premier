@@ -43,7 +43,7 @@ def parse_args():
     parser.add_argument("--use_wandb", action="store_true", help="Use Weights & Biases for logging")
     return parser.parse_args()
 
-#use below f
+#use below formatting function for instruction, question, answer format
 # def formatting_prompts_func(examples):
       #formatting funciton for instruction, question, answer format
 #     output_texts = []
