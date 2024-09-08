@@ -66,11 +66,6 @@ Multiple inference notebooks are provided to test the trained Gemma-2b model:
    - Generates responses from both models for the same prompts
    - Helps evaluate the impact of fine-tuning
 
-To use these notebooks:
-1. Open the desired notebook in Jupyter or your preferred environment.
-2. Update the model path and other parameters as needed.
-3. Run the cells to perform inference and analyze the results.
-
 ## Requirements
 
 See `requirements.txt` for a list of required Python packages. This includes:
