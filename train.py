@@ -1,4 +1,5 @@
-# python train.py --dataset "Rahulholla/stock-analysis" --builder_config "default"
+#python train.py --dataset "Rahulholla/stock-analysis" --builder_config "default"
+# use --builder_config=
 
 import argparse
 import os
@@ -42,6 +43,7 @@ def parse_args():
     parser.add_argument("--use_wandb", action="store_true", help="Use Weights & Biases for logging")
     return parser.parse_args()
 
+#use below f
 # def formatting_prompts_func(examples):
       #formatting funciton for instruction, question, answer format
 #     output_texts = []
